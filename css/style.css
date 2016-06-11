@@ -18,6 +18,10 @@ p {
   line-height: 19px; 
   font-weight: 100;
 }
+/* Added a stong class because montserrat font-family is not recognizing the strong tag */
+strong {
+  font-weight: bold;
+}
 
 /* Grid */
 .container {
