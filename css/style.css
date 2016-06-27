@@ -18,7 +18,9 @@ p {
   line-height: 19px; 
   font-weight: 100;
 }
-
+strong {
+  font-weight: bold;
+}
 /* Grid */
 .container {
   margin-right: auto;
@@ -27,18 +29,120 @@ p {
   padding-right: 15px;
   position: relative;
 }
-.container: before,
-.container: after {
+.container:before,
+.container:after {
   content: " ";
   display: table;
 }
 .container:after {
   clear: both;
 }
-.one-half, .one-third, .one-fourth {
+
+.one-half,.one-third,.one-fourth {
   width: 96%;
-  float: left;
   position: relative;
   min-height: 1px;
   margin: 0 2% 20px;
+  float: left;
 }
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .one-half {
+    width:46%;
+  }
+  .one-third {
+    width:29.33333%;
+  }
+  .one-fourth {
+    width:21%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+@media (min-width: 1240px) {
+  .container {
+    width: 1200px;
+  }
+}
+}
+/*HEADER*/
+header {
+  color:#FFFFFF;
+  background:#008ab2 url("../images/background.png") top center no-repeat;
+}
+header nav {
+  padding:1em 0;
+}
+header nav ul {
+  display:inline;
+  test-align:right;
+  float:right;
+  margin: 0;
+}
+header nav ul > li {
+  list-style-type:none;
+  display: inline-block;
+  margin: 0 15px;
+}
+header nav ul > li.btn-outline {
+  padding: 10px 15px;
+  border: 2px solid #11CCB9;
+  border-radius: 4px;
+}
+header nav ul > li.btn-outline:hover {
+  background:#11CCB9;
+}
+header nav ul > li > a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+header nav ul > li.btn-outline:hover > a {
+  color:#FFFFFF;
+}
+header .hero{
+  text-align:center;
+  display:block;
+  position:relative;
+}
+header .hero h1{
+  font-size:48px;
+  font-weight:normal;
+  margin:95px 0 0;
+}
+header .hero p{
+  font-size:22px;
+  line-height:26px;
+  font-weight:100;
+  margin:10px 0 40px;
+}
+header .hero img {
+  display:block;
+  margin-top:1em;
+  margin-bottom:0;
+  margin-right:0;
+  margin-left:22em;
+}
+/*BUTTONS*/
+.btn {
+  border-radius: 4px;
+  color:#FFFFFF;
+  text-decoration: none;
+  font-weight: 700;
+  border: 2px solid #11CCB9;
+  padding: 10px 30px;
+  background-color: #11CCB9; /*Chose darker green for this button*/
+  box-shadow: 0px 2px 0px 0px #259E83; 
+}
+}
+
+
+
