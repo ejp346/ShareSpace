@@ -18,9 +18,17 @@ p {
   line-height: 19px; 
   font-weight: 100;
 }
+<<<<<<< HEAD
 strong {
   font-weight: bold;
 }
+=======
+/* Added a stong class because montserrat font-family is not recognizing the strong tag */
+strong {
+  font-weight: bold;
+}
+
+>>>>>>> 2292597be55309db9372d44d848d6f0ff06781d5
 /* Grid */
 .container {
   margin-right: auto;
