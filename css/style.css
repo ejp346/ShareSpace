@@ -149,7 +149,7 @@ header .hero img {
   text-align: center;
   display: block;
   position: relative;
-  background: #11CCB9 url("../images/featuresbackground.png") top center no-repeat;
+  background: #0ea596 url("../images/featuresbackground.png") top center no-repeat;
 }
 .benefits ul {
   margin: 0 auto;
@@ -162,7 +162,7 @@ header .hero img {
 .benefits i {
    color:#FFFFFF;
    font-size:60px;
-   margin: 2em 0 0 0;
+   margin: 1.5em 0 0 0;
    vertical-align: middle;
  }
  .benefits h2 {
@@ -306,7 +306,64 @@ header .hero img {
   position: relative;
   top: 20px;
 }
+/*Call to action*/
+.action {
+  background: #008AB2;
+  background-size: cover;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 4em 0;
+}
+.action h2 {
+  position: relative;
+  bottom: 30px;
+}
+.action p {
+  position: relative;
+  bottom: 30px;
+}
 
+/*FOOTER*/
+footer {
+  background: #003E51;
+  color: #FFFFFF;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+footer p, footer nav ul {
+  font-size: 13px;
+  font-weight: 100;
+  text-align: center;
+  margin: 10px auto 0;
+}
+footer nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+footer nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .logo {
+  padding: 1.35em 0;
+  margin: 0 auto;
+  display: block;
+}
+@media (min-width: 992px) {
+  footer{
+    background-color: #003E51;
+    height: 100px;
+  }
+footer p, footer nav ul {
+  padding: 2em 0;
+  text-align: left;
+}
+footer .logo {
+  padding: 1em 0 2em 1.5em;
+}
+}
 
 
 
