@@ -740,7 +740,7 @@ footer .logo {
      -moz-transform: translate(0,0); /** Firefox **/
    }
    .hamburger {
-     display:none;
+    display:none;
    }
  }
 
