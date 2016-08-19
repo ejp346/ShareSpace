@@ -44,18 +44,15 @@ strong {
    min-height: 1px;
    margin:0 2% 20px;
 }
-
-@media (min-width: 300px) {
-  .hero img {
-    width: 60%;
-  }
+@media (min-width: 500px) {
+  header .hero img {
+    padding-left: 100px;
+   }
 }
+
 @media (min-width: 768px) {
    .container {
      width: 750px;
-   }
-   .hero img {
-    width: 70%;
    }
  }
  @media (min-width: 992px) {
@@ -71,25 +68,16 @@ strong {
    .one-fourth {
      width:21%;
    }
-   .hero img {
-    width: 100%;
-   }
  }
  @media (min-width: 1200px) {
    .container {
      width: 1170px;
-   }
-   .hero img {
-    width: 100%;
    }
  }
  @media (min-width: 1240px) {
   .container {
     width: 1200px;
   }
-  .hero img {
-    width: 100%;
-   }
 }
 /*HEADER*/
 header {
@@ -143,11 +131,10 @@ header .hero p{
   margin:10px 0 40px;
 }
 header .hero img {
-  display:block;
-  margin-top:1em;
-  margin-bottom:0;
-  margin-right:0;
-  margin-left:22em;
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: -5px;
 }
 /*BUTTONS*/
 .btn {
